@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Club SMKN 1 Subang</title>
+</head>
+<body>
+   <header>
+    <!-- Ini Judul Utama Website-->
+    <h1>Coding Club SMKN 1 Subang</h1>
+    <h3>Belajar, Berkarya, dan Berkembang Bersama Teknologi.</h3>
+   </header>
+
+   <!--Ini Bagian Navigasi untuk Menu Utama Website-->
+   <nav>
+    <a href="#">Beranda</a>
+    <a href="#">Tentang</a>
+    <a href="#">Kegiatan</a>
+    <a href="#">Jadwal</a>
+    <a href="#">Daftar</a>
+   </nav>
+
+<!--Ini Konten Utama dari Halaman Web-->
+<main>
+    <!--Ini bagian paling atas pada halaman website-->
+   <section>
+    <!--Ini Judul Utama Bagian Pembuka-->
+    <h1> Belajar Coding Mulai dari Sekarang.</h1>
+    <!-- Ini Penjelasan Singkat Tentang Coding-->
+    <p>Cara kita menulis instruksi agar komputer bisa memecahkan masalah. Proses ini memakai bahasa khusus seperti Python atau HTML. Pemula bisa mulai dari dasar logika seperti variabel dan perintah cetak.</p>
+    <!--Menampilkan Gambar Coding Club-->
+    <img src ="foto.jpg" alt="Coding Club" >  
+   </section>
+   <!--Link untuk Mengarahkan ke bagian Pendaftaran-->
+       <a href="#">Daftar Sekarang</a>
+
+   <section>
+   <article>
+        <h2>Tentang Coding Club</h2>
+        <p>Coding Club adalah tempat untuk mempelajari struktur kebahasaan suatu pemrograman. Banyak bahasa dalam dunia coding salah satunya adalah PHP, JavaScript,Python, CSS, Dsb. </p>
+   </article>
+   </section>
+
+   <section>
+    <p>Yang Akan Dipelajari:</p>
+   <!--Ini List Tidak Berurutan-->
+   <ul>
+        <!--Setiap li merupakan 1 item dalam list-->
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Pemrograman Web</li>
+        <li>Git</li>
+        <li>GitHub</li>
+   </ul>
+   </section>
+
+  <section>
+    <p>Alur Mengikuti Coding Club:</p>
+   <!--Ini List Berurutan Dengan Angka-->
+   <ol>
+        <li>Mengisi formulir pendaftaran;</li>
+        <li>Mengikuti pertemuan pertama;</li>
+        <li>Belajar dasar pemrograman;</li>
+        <li>Membuat proyek sederhana;</li>
+        <li>Presentasi hasil proyek;</li>
+   </ol>
+  </section>
+
+ <section>
+    <p> Kegiatan Coding Club:</p>
+    <article>Kegiatan 1: Belajar HTML</article>
+    <p>Untuk belajar HTML dimulai dengan menyiapkan teks editor seperti Visual Studio Code, memahami struktur dasar menggunakan tag dan elemen, serta menampilkan hasilnya di web browser.</p>
+    <article>Kegiatan 2: Membuat Website</article>
+    <p>Dalam pembuatan website melibatkan penentuan tujuan, pemilihan domain dan hosting, serta penggunaan platform atau content management system (CMS).</p>
+    <article>Kegiatan 3: Project Showcase</article> 
+   <p>Mempresentasikan produk, inovasi, atau solusi yang sudah dibuat selama masa belajar.</p>
+ </section>
+
+<section>
+<!--Ini Tabel Jadwal Kegiatan-->
+<table>
+    <tr>
+        <th>Hari</th>
+        <th>Kegiatan</th>
+        <th>Jam</th>
+        <th>Tempat</th>
+    </tr>
+    <!--Ini Baris Jadwal Hari Senin-->
+    <tr>
+        <td>Senin</td>
+        <td>Belajar HTML</td>
+        <td>15.00-16.30</td>
+        <td>Lab RPL</td>  
+    </tr>
+    <!--Ini Baris Jadwal Hari Rabu-->
+    <tr>
+        <td>Rabu</td>
+        <td>Pemrograman Web</td>
+        <td>15.00-16.30</td>
+        <td>Lab RPL</td>  
+    </tr>
+    <!--Ini Baris Jadwal Hari Jumat-->
+    <tr>
+        <td>Jumat</td>
+        <td>Project Coding</td>
+        <td>13.30-15.00</td>
+        <td>Lab RPL</td>  
+    </tr>
+</table>
+</section>
+
+<br>
+
+<!--Ini Section Form Pendaftaran-->
+<section>
+<form>
+    <p>Form Pendaftaran</p>
+    <!--Ini Input untuk memasukkan Nama Lengkap-->
+    <Input type="text"placeholder="Nama Lengkap">
+    <!--Ini Input untuk memasukkan Email-->
+    <input type="email" placeholder="Email">
+
+   <!--Select digunalan untuk membuat Pilihan Dropdown-->
+   <select>
+        <!--Ini opsi Pertama dst-->
+        <option value=""> X RPL 1</option> 
+        <option value=""> X RPL 2</option>
+        <option value=""> XI RPL 1</option> 
+        <option value=""> XI RPL 2</option> 
+  </select>
+
+<p>Pilih jenis kelamin :</p>
+    <!--Radio Button pengguna hanya dapat memilih satu jenis kelamin-->
+    <input type="radio" id="laki laki" name="gender" value="Laki">
+    <label for="laki-laki">Laki-laki</label>
+
+    <input type="radio" id="perempuan" name="gender" value="perempuan">
+    <label for="perempuan">Perempuan</label>
+    <br>
+
+<p>Minat yang ingin dipelajari:</p>
+    <input type="checkbox" id="web" name="minat[]" value="Web Development">
+           <label for="web">Web Development</label><br>
+
+         <input type="checkbox" id="game" name="minat[]" value="Game Development">
+            <label for="game">Game Development</label><br>
+
+         <input type="checkbox" id="uiux" name="minat[]" value="UI/UX">
+             <label for="uiux">UI/UX</label><br>
+
+         <input type="checkbox" id="mobile" name="minat[]" value="Mobile Development">
+            <label for="mobile">Mobile Development</label>
+
+            <br>
+              
+     <!--Textarea digunakan untuk memasukkan teks yang panjang-->
+     <textarea name="pesan" placeholder="Tulis pesan Anda di sini..."></textarea>
+            <!--Ini Tombol untuk Mengirim Data Formulir-->
+            <button type="submit">Kirim</button>
+
+            <label for="setuju">
+                <input type="checkbox" id="setuju" name="setuju" required>
+                Saya setuju dengan syarat dan ketentuan.         
+</form>
+</section>
+</main>
+
+<br>
+<!--Ini Bagian Paling Bawah dari Website-->
+<footer>
+    <!--Ini Informasi Hak Cipta dan nama Coding Club-->
+    <p>Coding Club SMKN 1 Subang Rekayasa Perangkat Lunak © 2026 Coding Club SMKN 1 Subang</p>
+</footer>
+</body>
+</html>
